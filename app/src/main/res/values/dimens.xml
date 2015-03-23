@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="general_width">10dp</dimen>
+
+	<!-- For Button -->
+	<dimen name="custom_button_corners">5dp</dimen>
+	<dimen name="custom_button_stroke">3dp</dimen>
+	<dimen name="custom_button_padding">10dp</dimen>
+
+	<dimen name="custom_clickable_button_stroke">1dp</dimen>
+</resources>

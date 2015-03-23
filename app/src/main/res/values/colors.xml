@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="general_black">#FF000000</color>
+	<color name="general_white">#FFFFFFFF</color>
+
+	<!-- For Button -->
+	<color name="custom_button_stroke_color">#FF001113</color>
+	<color name="custom_button_gradient_start_color">#FF449DEF</color>
+	<color name="custom_button_gradient_center_color">#FF2F6699</color>
+	<color name="custom_button_gradient_end_color">#FF449DEF</color>
+
+	<color name="custom_clickable_button_original_color">#FFEE3456</color>
+	<color name="custom_clickable_button_clicked_color">#33EE3456</color>
+</resources>

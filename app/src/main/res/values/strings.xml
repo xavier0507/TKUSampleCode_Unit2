@@ -1,0 +1,17 @@
+<resources>
+	<string name="app_name">Button and TextView</string>
+
+	<!-- For Button -->
+	<string name="action_original_button">Original Button</string>
+	<string name="action_mystyle_button">My Style Button</string>
+	<string name="action_custom_button">Custom Button</string>
+	<string name="action_custom_clickable_button">Custom Clickable Button</string>
+	<string name="action_exit">Exit</string>
+
+	<!-- For Text -->
+	<string name="text_show_result">Result: </string>
+	<string name="text_result">You clicked [%s].</string>
+	<string name="text_no_result">Image Button</string>
+	<string name="text_exit">Do you wanna exit? Pleases input \"yes\" and click the following button.</string>
+	<string name="text_notification">Your content is not "yes"!</string>
+</resources>

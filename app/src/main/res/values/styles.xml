@@ -1,0 +1,44 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+	</style>
+
+	<style name="MyAppTheme" parent="ThemeOverlay.AppCompat.Light">
+		<!-- Customize your theme here. -->
+	</style>
+
+	<!-- For Text -->
+	<style name="Unit2TextStyle" parent="TextAppearance.AppCompat.Medium">
+		<item name="android:textColor">@color/general_black</item>
+	</style>
+
+	<!-- For Button -->
+	<style name="MyStyleButton">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textAppearance">@android:style/TextAppearance.Holo.Medium</item>
+		<item name="android:textColor">@color/general_black</item>
+		<item name="android:layout_margin">@dimen/general_width</item>
+	</style>
+
+	<style name="CustomButton" parent="@android:style/Widget.Button">
+		<item name="android:textAppearance">@android:style/TextAppearance.Holo.Medium</item>
+		<item name="android:textColor">@color/general_black</item>
+		<item name="android:layout_margin">@dimen/general_width</item>
+		<item name="android:background">@drawable/custom_button_shape</item>
+	</style>
+
+	<style name="CustomClickableButton" parent="@android:style/Widget.Button">
+		<item name="android:textAppearance">@android:style/TextAppearance.Holo.Medium</item>
+		<item name="android:layout_margin">@dimen/general_width</item>
+		<item name="android:background">@drawable/custom_button_clickable</item>
+	</style>
+
+	<!-- For EditText -->
+	<style name="MyStyleEditText" parent="Widget.AppCompat.EditText">
+		<item name="android:background">@color/general_black</item>
+		<item name="android:textColor">@color/general_white</item>
+	</style>
+
+</resources>

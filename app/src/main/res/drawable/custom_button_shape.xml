@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape>
+			<corners android:radius="@dimen/general_width"/>
+
+			<stroke android:width="@dimen/custom_button_stroke"
+					android:color="@color/custom_button_stroke_color"/>
+
+			<gradient android:type="linear"
+					  android:centerColor="@color/custom_button_gradient_center_color"
+					  android:endColor="@color/custom_button_gradient_end_color"
+					  android:startColor="@color/custom_button_gradient_start_color"/>
+
+			<padding android:bottom="@dimen/custom_button_padding"
+					 android:left="@dimen/custom_button_padding"
+					 android:right="@dimen/custom_button_padding"
+					 android:top="@dimen/custom_button_padding"/>
+		</shape>
+	</item>
+</selector>

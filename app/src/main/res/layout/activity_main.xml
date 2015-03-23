@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical">
+
+	<Button
+		android:id="@+id/button_original"
+		style="@style/Unit2TextStyle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="@dimen/general_width"
+		android:text="@string/action_original_button"/>
+
+	<Button
+		android:id="@+id/button_my_style"
+		style="@style/MyStyleButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/action_mystyle_button"/>
+
+	<Button
+		android:id="@+id/button_custom"
+		style="@style/CustomButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/action_custom_button"/>
+
+	<Button
+		android:id="@+id/button_custom_clickable"
+		style="@style/CustomClickableButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/action_custom_clickable_button"/>
+
+	<ImageButton
+		android:id="@+id/button_image_clickable"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="@dimen/general_width"
+		android:background="@drawable/custom_img_button_clickable"/>
+
+</LinearLayout>
